@@ -4,6 +4,12 @@ int main()
 {
     long long n;
     cin>>n;
+    if(n<=1)
+     {
+/*adding changes*/
+      return n;
+      return 0;
+     }
     long long i;
     long long a[n+3];
     a[0]=0;
